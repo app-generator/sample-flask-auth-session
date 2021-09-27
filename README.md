@@ -9,6 +9,10 @@ Open-source Flask project that implements a simple authentication system using `
 
 <br />
 
+![Flask User Authentication - Free sample provided by AppSeed.](https://user-images.githubusercontent.com/51070104/134959525-3ad0c71c-27e4-45f7-b7b9-53b76f3884bf.png)
+
+<br />
+
 ## Build from sources
 
 > **Step #1** - Clone sources (this repo)
