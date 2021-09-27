@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.88.1">
+<title>Flask Authentication - Login page | Bootstrap v5.1</title>
+
+<!-- CSS only -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/static/assets/css/custom.css">
+
+</head>
+<body>
+
+    <main>
+
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold lh-1 mb-3">
+                        Flask Sign UP
+                    </h1>
+                    <p class="col-lg-10 fs-4">
+                        Open-source Flask Sample that showcases login, logout, and registration flow.   
+                    </p>
+                </div>
+                <div class="col-md-10 mx-auto col-lg-5">
+
+                    <form method="post" action="" class="p-4 p-md-5 border rounded-3 bg-light">
+
+                        {{ form.hidden_tag() }}
+
+                        <p class="fw-bold">
+                            {% if msg %}
+                                {{ msg | safe }}
+                            {% else %}
+                                Add your credentials
+                            {% endif %}                                  
+                        </p>
+
+                        <br />
+
+                        <div class="form-floating mb-3">
+                            {{ form.username(class="form-control") }}
+                            <label for="floatingInput">Username</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            {{ form.email(class="form-control") }}
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            {{ form.password(class="form-control", type="password") }}
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <br />
+                        <!--
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="agree-terms"> Agree terms
+                            </label>
+                        </div> -->
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign UP</button>
+                        <hr class="my-4">
+                        <small class="text-muted">
+                            Already have an account? <a href="{{ url_for('login') }}" class="text-right">Login</a>
+                        </small>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+      
+</body>
+</html>
