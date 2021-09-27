@@ -1,6 +1,6 @@
 # Flask User Authentication
 
-Open-source sample that implements an authentication system in Flask using `Flask-Login` library - Features:
+Open-source Flask project that implements a simple authentication system using `Flask-Login` library - Features:
 
 - Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
 - Authentication layer: `Flask-Login`
