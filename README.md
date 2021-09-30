@@ -1,4 +1,4 @@
-# Flask User Authentication
+# [Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/)
 
 Open-source Flask project that implements a simple authentication system using `Flask-Login` library - Features:
 
@@ -133,4 +133,4 @@ The project has a super simple structure, represented as bellow:
 <br />
 
 ---
-Flask User Authentication - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+[Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
