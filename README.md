@@ -128,7 +128,7 @@ The project has a super simple structure, represented as bellow:
 ## Resources
 
 - Free [Admin Dashboards](https://appseed.us/admin-dashboards/open-source) - index provided by AppSeed
-- [Flask Social Login](https://blog.appseed.us/flask-social-login-with-github/) - blog article 
+- [Flask Social Login](https://blog.appseed.us/flask-social-login-with-github/) - blog article (includes a free sample)
 
 <br />
 
