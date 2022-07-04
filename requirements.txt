@@ -8,3 +8,4 @@ flask_bcrypt==0.7.1
 jinja2==3.0.1
 python-decouple==3.4
 email_validator==1.1.3
+Werkzeug==2.0.3
