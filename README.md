@@ -7,11 +7,15 @@ Open-source Flask project that implements a simple authentication system using `
 - UI: Bootstrap5 via `CDN`
 - Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
 
-<br />
+<br /> 
 
-![Flask User Authentication - Free sample provided by AppSeed.](https://user-images.githubusercontent.com/51070104/134959525-3ad0c71c-27e4-45f7-b7b9-53b76f3884bf.png)
+> 🚀 `PROMO`: **[Junior Developers Starter KIT](https://www.creative-tim.com/product/buy/bundle/junior-bundle?AFFILIATE=128200)** `85%OFF`
 
-<br />
+The package includes a `rock-solid collection of premium assets` (**Kits & Dashboards**) that can be used to build eye-catching portfolios and web apps in no time.
+
+[![Junior Developers Starter KIT](https://user-images.githubusercontent.com/51854817/195055646-e55200cd-0ddd-4bdd-aded-0d4e4479789b.png)](https://www.creative-tim.com/product/buy/bundle/junior-bundle?AFFILIATE=128200)
+
+<br /> 
 
 ## Build from sources
 
@@ -91,6 +95,10 @@ $ flask run --host=0.0.0.0 --port=5000
 $
 $ # Access the app in browser: http://127.0.0.1:5000/
 ```
+
+<br />
+
+![Flask User Authentication - Free sample provided by AppSeed.](https://user-images.githubusercontent.com/51070104/134959525-3ad0c71c-27e4-45f7-b7b9-53b76f3884bf.png)
 
 <br />
 
