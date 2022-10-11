@@ -2,10 +2,10 @@
 
 Open-source Flask project that implements a simple authentication system using `Flask-Login` library - Features:
 
-- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
-- Authentication layer: `Flask-Login`
-- UI: Bootstrap5 via `CDN`
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- ✅ `Up-to-date dependencies`
+- ✅ Authentication layer: `Flask-Login`
+- ✅ UI: Bootstrap5 via `CDN`
+- ✅ Free [Support](https://appseed.us/support/) via `Email` and `Discord`.
 
 <br /> 
 
@@ -23,8 +23,8 @@ The package includes a `rock-solid collection of premium assets` (**Kits & Dashb
 
 ```bash
 $ # Clone the sources
-$ git clone https://github.com/app-generator/flask-user-authentication.git
-$ cd flask-user-authentication
+$ git clone https://github.com/app-generator/sample-flask-auth-session.git
+$ cd sample-flask-auth-session
 ```
 
 <br />
@@ -141,4 +141,4 @@ The project has a super simple structure, represented as bellow:
 <br />
 
 ---
-[Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/) - Free sample provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
+[Flask User Authentication](https://blog.appseed.us/flask-user-authentication-free-sample/) - Free sample provided by **AppSeed**.
